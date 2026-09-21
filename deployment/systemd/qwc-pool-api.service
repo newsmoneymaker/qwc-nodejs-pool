@@ -1,0 +1,17 @@
+[Unit]
+Description=Qwertycoin pool: public API (127.0.0.1:8118)
+After=qwc-pool-redis.service qwc-node.service qwc-wallet-rpc.service
+Requires=qwc-pool-redis.service
+[Service]
+Type=simple
+User=qwcpool
+WorkingDirectory=/opt/qwc-nodejs-pool
+ExecStart=/usr/bin/node /opt/qwc-nodejs-pool/init.js -module=api
+Restart=always
+RestartSec=5
+TimeoutStopSec=30
+NoNewPrivileges=true
+PrivateTmp=true
+
+[Install]
+WantedBy=multi-user.target

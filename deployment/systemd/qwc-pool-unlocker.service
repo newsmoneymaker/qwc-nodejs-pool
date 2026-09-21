@@ -1,0 +1,17 @@
+[Unit]
+Description=Qwertycoin pool: block unlocker (credits the miners after the coinbase maturity)
+After=qwc-pool-redis.service qwc-node.service qwc-wallet-rpc.service
+Requires=qwc-pool-redis.service
+[Service]
+Type=simple
+User=qwcpool
+WorkingDirectory=/opt/qwc-nodejs-pool
+ExecStart=/usr/bin/node /opt/qwc-nodejs-pool/init.js -module=unlocker
+Restart=always
+RestartSec=15
+TimeoutStopSec=30
+NoNewPrivileges=true
+PrivateTmp=true
+
+[Install]
+WantedBy=multi-user.target

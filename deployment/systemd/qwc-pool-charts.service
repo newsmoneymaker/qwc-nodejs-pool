@@ -1,0 +1,17 @@
+[Unit]
+Description=Qwertycoin pool: charts data collector (hash rate, difficulty, miners, workers on the home page)
+After=qwc-pool-redis.service qwc-pool-api.service
+Requires=qwc-pool-redis.service
+[Service]
+Type=simple
+User=qwcpool
+WorkingDirectory=/opt/qwc-nodejs-pool
+ExecStart=/usr/bin/node /opt/qwc-nodejs-pool/init.js -module=chartsDataCollector
+Restart=always
+RestartSec=5
+TimeoutStopSec=30
+NoNewPrivileges=true
+PrivateTmp=true
+
+[Install]
+WantedBy=multi-user.target

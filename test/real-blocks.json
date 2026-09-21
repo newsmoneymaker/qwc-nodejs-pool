@@ -1,0 +1,86 @@
+{
+ "note": "real Qwertycoin v2 mainnet blocks without transactions (2026-09-21): RandomX(hashing blob) with the seed hash as key equals the node's pow_hash",
+ "blocks": [
+  {
+   "height": 1,
+   "seed_height": 0,
+   "seed_hash": "4f95857586e2c66063c277370eda99cd75897d773af09f0c3cd1e22f7e87db39",
+   "hashing_blob": "11119098a0d5064f95857586e2c66063c277370eda99cd75897d773af09f0c3cd1e22f7e87db39ed5c26173e1fe1f0595decd7e8364cbebfdc5d3e68164a07aec42f13b9e4702617eea42501",
+   "pow_hash": "b599db000322a0dc8fa540bf0993919abf7bdeea73fd1774b8467b21c59e25f3",
+   "difficulty": 1,
+   "major_version": 17
+  },
+  {
+   "height": 50,
+   "seed_height": 0,
+   "seed_hash": "4f95857586e2c66063c277370eda99cd75897d773af09f0c3cd1e22f7e87db39",
+   "hashing_blob": "1111afa5a0d5066027080705e0350258491e581d9e98fe7b941a123e4928e93c27c4832e04ff18e061bef0e75753cf5dddaf2a6ef3ff142cfddaf5b230110753a267421f6d69bae6889c4901",
+   "pow_hash": "ac92e518d9d8cb89b3f3a318813c949beb5dc8ee9ab2bef8c920c7232d060000",
+   "difficulty": 1233344,
+   "major_version": 17
+  },
+  {
+   "height": 2100,
+   "seed_height": 0,
+   "seed_hash": "4f95857586e2c66063c277370eda99cd75897d773af09f0c3cd1e22f7e87db39",
+   "hashing_blob": "1111f5d8aad506252cce49e811925d83a073da64a53010f25ea1ab1dd6fa62164b4e75a9681e3bb6fa52affa5d01e708a385472087f403f96ef5c960ab8c43321d026c478bcd9c90ab500601",
+   "pow_hash": "7cac551c5f72a71b6bf21926e961076dd8edc7901c89026318e2948745000000",
+   "difficulty": 30137621,
+   "major_version": 17
+  },
+  {
+   "height": 2200,
+   "seed_height": 2048,
+   "seed_hash": "4cc716c364d530bd8b8793c10d84430d588c394a25f50dc3bf67ecaefc662188",
+   "hashing_blob": "1111fafaaad5067d1027679184cf85e2e88554e41971197d7eb29979e6dd26bbf3c1a669f96260391402e4eaec152d987da8259184b6b427e458749e9d92fd1e72985da6d5d0aaa1276d3a01",
+   "pow_hash": "0254fa06d25434b903ebf2fd0a2f1906dd9bea2661796be3138b6b2415000000",
+   "difficulty": 36313647,
+   "major_version": 17
+  },
+  {
+   "height": 4100,
+   "seed_height": 2048,
+   "seed_hash": "4cc716c364d530bd8b8793c10d84430d588c394a25f50dc3bf67ecaefc662188",
+   "hashing_blob": "1111a4e8b7d50680028f66d739382e76dc12cc95411343b702645b33cfbe3ee492a1c2a63a86b5f8176721408d961704f1314e09612919b84393ea1e91f991f4b0fd0bddacebf4863bf79e01",
+   "pow_hash": "553cacfc3a36da462b73e2954c1328cedefca3903276b3830de324b612000000",
+   "difficulty": 123452548,
+   "major_version": 17
+  },
+  {
+   "height": 4200,
+   "seed_height": 4096,
+   "seed_hash": "09f2dd080dbb123ce3d3f6344f96657a22f0cd7daa15deda38546e83a96fe239",
+   "hashing_blob": "1111a7d9b8d5060dbc630d4293a8124837e5e4dde06dd2cde2172f2755ced81a4bd4232981924ee2a00a00c95dbc59a12d5641d11a050c37a9b2f51762ba49c14fae89672bbd32d1b326a801",
+   "pow_hash": "7370f11c8b01f341cc4d4e91251c33cb3e7efd938a09a718748262cb09000000",
+   "difficulty": 113338861,
+   "major_version": 17
+  },
+  {
+   "height": 5000,
+   "seed_height": 4096,
+   "seed_hash": "09f2dd080dbb123ce3d3f6344f96657a22f0cd7daa15deda38546e83a96fe239",
+   "hashing_blob": "1111acd3bed506e404b98b9ea7b2dec3e606729794ebe0e154855c7621ad67a8de05b50325cfbe63920500b5cf02803cc9db346f128e39883a435b65f82ce79c825108f6a6b4561d6d3d2e01",
+   "pow_hash": "49134e6a6ae5bdffe7292479b53d5c611e90a351287f9874ff76d4c40b000000",
+   "difficulty": 105767815,
+   "major_version": 17
+  },
+  {
+   "height": 5792,
+   "seed_height": 4096,
+   "seed_hash": "09f2dd080dbb123ce3d3f6344f96657a22f0cd7daa15deda38546e83a96fe239",
+   "hashing_blob": "1111f8b4c4d506cfb170327df3bd3965b3797ec8e511340059c52be05a7a1de44f04f26190013be38c07003f97ea3a5b1a8f10451664db6b90ac2f52a9d3aece7c6a0adfcb76c15cdfbcc401",
+   "pow_hash": "7f3563b99cef5d32012918c6ff42ebe2d29a79008bb8a6dbc604227f0c000000",
+   "difficulty": 100915994,
+   "major_version": 17
+  },
+  {
+   "height": 5812,
+   "seed_height": 4096,
+   "seed_hash": "09f2dd080dbb123ce3d3f6344f96657a22f0cd7daa15deda38546e83a96fe239",
+   "hashing_blob": "11118ec9c4d506910efa34165274c7cdc499da755f77e30e861ff15ad3874247b7761fb8c5e79840f9898333f80ead8925db33ddfb440aec9d9255ebb247c6560283255ea70dda02acf65101",
+   "pow_hash": "f8ab50fe750c52c9007fa83f1d56dc1196070278ebce4394f4eab49d06000000",
+   "difficulty": 102135129,
+   "major_version": 17
+  }
+ ]
+}

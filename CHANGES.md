@@ -1,5 +1,9 @@
 # Changes
 
+## Unreleased
+
+* The variable difficulty is remembered per address and worker across reconnects (`poolServer.diffMemoryMinutes`, default 15): a miner whose connection is cut or renewed every half minute no longer restarts from the start difficulty each time. `test/test-qwc-vardiff.js`.
+
 ## 1.0.0
 
 * First release: Qwertycoin v2 (Monero based, RandomX) pool derived from veil-nodejs-pool and epic-nodejs-pool. Stratum for `rx/0` (XMRig protocol), share checking with the
